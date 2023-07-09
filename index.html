@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Navbar -->
+    <header>
+        <a href="#home"><h1>Daylength</h1></a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <ul id="navbar">
+            <li class="navbar">
+                <a href="#home">Home</a>
+                <a href="#place">Place</a>
+                <a href="#calculator">Calculator</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- Home Page Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome</span>
+            <h2>Daylength BY <br>Group 3</h2>
+            <a href="#calculator"><button class="btn">Get Started</button></a>
+        </div>
+        <div class="home-img">
+            <img src="https://c.tadst.com/gfx/600x337/december-solstice-dark.png?1" alt="">
+        </div>
+    </section>
+    <!-- Place Section -->
+    <section class="place" id="place">
+        <div class="text">
+            <span>Location</span>
+            <h2>ENJOY THE PLACE</h2>
+        </div>
+        <div class="container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <div class="box-cover">
+                        <a href=""><button type="button">Mondulkiri</button></a>
+                    </div>
+                    <img src="https://i.pinimg.com/564x/33/51/b2/3351b2984b10deed03da08a2379b1ed1.jpg" alt="">
+                </div>
+                <div class="rate-star">
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star-half-stroke icon"></i>
+                </div>
+                <h2>BEAUTIFUL PLACE IN CAMBODIA</h2>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <div class="box-cover">
+                        <a href=""><button type="button">Takeo</button></a>
+                    </div>
+                    <img src="https://i.pinimg.com/564x/0e/48/5c/0e485cd538fb663b88d6c65dcde5617b.jpg" alt="">
+                </div>
+                <div class="rate-star">
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star-half-stroke icon"></i>
+                </div>
+                <h2>BEAUTIFUL PLACE IN CAMBODIA</h2>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <div class="box-cover">
+                        <a href=""><button type="button">LoungPrabang</button></a>
+                    </div>
+                    <img src="https://i.pinimg.com/564x/ed/8b/41/ed8b41299b9bcc26dbd13357cad14bd9.jpg" alt="">
+                </div>
+                <div class="rate-star">
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star icon"></i>
+                    <i class="fa-solid fa-star-half-stroke icon"></i>
+                </div>
+                <h2>BEAUTIFUL PLACE IN <br> LAOS</h2>
+            </div>
+        </div>
+    </section>
+    <!-- Calculator Section -->
+    <section class="calculator" id="calculator">
+        <div class="text">
+            <span>Let's Calculate</span>
+            <h2>Machine Daylength</h2>
+        </div>
+        <div class="container-form">
+            <div class="form-text">
+                <span>Welcome</span>
+                <h2>Let's Calculate <br> Our Machine</h2>
+                <a href=""><button class="btn">Let's Start</button></a>
+            </div>
+            <div class="form">
+                <h2>Daylight calculator</h2>
+                <span class="underline"></span>
+                <div class="sector">
+                    <input type="text" id="textPlace" placeholder="Location" required>
+                </div>
+                <div class="hour-box">
+                    <input type="number" id="day" placeholder="Day" min="1" max="31" required>
+                </div>
+                <div class="Mn-box">
+                    <input type="number" id="month" placeholder="Month" min="1" max="12" required>
+                </div>
+                <div class="Se-box">
+                    <input type="number" id="year" placeholder="Year" min="1" required>
+                </div>
+                <button type="submit" class="calculate-btn">Calculate</button>
+                <p id="result" class="answer"></p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Page Section -->
+    <section class="contact" id="contact">
+        <div class="text-contact">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container-contact">
+            <div class="Img">
+                <img src="https://images.pexels.com/photos/6443068/pexels-photo-6443068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+            <div class="form-contact">
+                <form action="" method="post">
+                    <div class="name">
+                        <input type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="Email">
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
+                    <div class="Title">
+                        <input type="text" class="form-control" placeholder="Title">
+                    </div>
+                    <div class="Submit">
+                        <textarea class="form-control" rows="6" placeholder="Type here.........."></textarea>
+                        <button type="button">Submit Here</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook icon"></i></a>
+            <a href=""><i class="fa-brands fa-twitter icon"></i></a>
+            <a href=""><i class="fa-brands fa-instagram icon"></i></a>
+            <a href=""><i class="fa-brands fa-youtube icon"></i></a>
+        </div>
+        <p>&#169; Group 3 All Right Reserved</p>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
